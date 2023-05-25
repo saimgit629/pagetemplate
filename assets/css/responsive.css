@@ -1,0 +1,184 @@
+@media (max-width: 1280px) {
+
+    .sercive-control {
+       
+        flex-direction: column;
+    }
+    .starplus {
+         border: 0; 
+        text-align: center;
+        border-radius: 0;
+    }
+
+
+
+    .service-content input, .service-content2 input {
+        width: 20rem;
+    } 
+        
+    .card-con {
+    
+        flex-direction: column;
+    }
+
+    .card-details{
+        padding: 0;
+        text-align: center;
+        margin-bottom: 4px;
+}
+    
+
+
+.card-det p, .card-det h6 {
+    text-align: center;
+}
+
+.textbox {
+
+    justify-content: space-around;
+}
+
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .card-text p, .card-box2 p, .card-box3 p , .card-box3 b{
+        font-size: 13px;
+        
+    }
+    .service-content2 {
+        display: flex;
+         justify-content: unset; 
+         align-items: unset;
+        flex-direction: column;
+    }
+.service-content{
+    text-align: center;
+}
+
+.starplus {
+    
+    padding-bottom: 26px;
+}
+
+.service-content p, .Addnew button {
+
+    font-size: 17px;
+}
+
+.Addnew button {
+    
+  margin-top: 19px;
+
+}
+
+.search-bar input {
+    width: 16rem;
+
+}
+
+form{
+    display: flex;
+}
+
+.search-bar i {
+    left: 9%;
+    top: 10px;
+}
+}
+
+
+
+@media (max-width: 912px) {
+
+.nav-list{
+    justify-content: flex-end;
+   
+
+}
+
+.titilepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.excel{
+    margin-left: 15rem;
+}
+
+
+.pagination{
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.card-new-bord h2{
+    text-align: center;
+   
+}
+
+.textbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-con {
+    flex-direction: column;
+    margin: 10px;
+}
+}
+
+@media (max-width: 540px) {
+.title-page-text p {
+        font-weight: 400;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .join p {
+        text-align: center;
+        font-size: 17px;}
+    .search-con {
+        display: flex;
+        justify-content: center;
+    }
+
+    .excel {
+        margin-left: -6rem;
+    }
+
+    .card-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-control {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+   
+    .nav-list p {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 414px) {
+
+    .title-page-text p {
+        
+        font-size: 13px;
+    }
+    
+    
+    .join p {
+        
+        font-size: 16px;
+    }
+}

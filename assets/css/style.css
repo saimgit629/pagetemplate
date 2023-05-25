@@ -1,0 +1,344 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: aqua;
+
+}
+
+
+.nav-list{
+    list-style: none;
+    
+    align-items: center;
+    margin: 0;
+
+}
+
+.nav-list .nav-item{
+    margin:  0 8px;
+}
+.nav-list p{
+    color: #3c8a56;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.bg-body-tertiary {
+     --bs-bg-opacity: unset;
+    background-color: transparent !important;
+    border-bottom: 2.5px solid #b7b7b7;
+}
+.navbar-brand {
+ padding: 0 !important;; 
+   
+}
+
+.titilepage img{
+    width: 2rem;
+    margin: 0 8px;
+}
+
+.titilepage{
+    display: flex;
+    align-items: center;
+}
+
+.titilepage p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+}
+.title-page-text p{
+    font-weight: 400;
+}
+
+
+.search-bar{
+    
+    display: flex;
+    align-items: center;
+}
+
+.search-bar img{
+    margin: 0 11px;
+}
+
+.search-bar input{
+    width: 26rem;
+    border-radius: 10px;
+    font-size: 21px;
+    border: 3px solid #c6c6c6;
+}
+
+.search-con{
+    display: flex;
+    justify-content: flex-end;
+}
+.search-bar i{
+    position: relative;
+     color: #e1e1e2;
+    left: 9%;
+    top: -2px;
+    
+}
+
+
+.form{
+    display: block;
+    width: 70%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;}
+
+
+    .card-box{
+        display: flex;
+       
+    }
+
+    .card-box3{
+        margin: 0 8px;
+    }
+
+    .card-text p{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .card-text{
+        margin: 0 8px;
+    }
+
+    .card-box img{
+        border: 3px solid #b7b7b7;
+        border-radius: 8px;
+    }
+
+    .card-details img{
+        border: 3px solid #fb5f7e;
+        border-radius: 8px;
+    }
+    .card-box2 p, .textbox p, .card-det p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-box3 p {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: end;
+    }
+    
+
+    .borderline{
+        
+        padding: 9px;
+    background: white;
+    border-radius: 13px;
+    }
+
+    .Search{
+        background: #d9d9d9;
+        padding: 22px 0;
+    }
+.card-section{
+    background: #d9d9d9;
+}
+
+.card-new-bord{
+   border: 3px solid #c6c6c6;
+   border-radius: 25px; 
+   padding: 30px;
+   background: white;
+}
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+      }
+
+
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+      
+
+
+      .card-control{
+        display: flex;
+    justify-content: flex-end;
+}
+
+.page-item{
+    margin: 0 10px;
+    /* border: 1px solid blue;
+    border-radius: 5px;
+    margin: 0 10px; */
+}
+   
+.page-item .page-link{
+    
+     border: 1px solid blue !important;
+     border-radius: 6px;
+     padding: 2px 8px;
+     
+}
+
+.page-link span{
+    color: grey;
+}
+
+.card-details{
+    padding: 0 10px 0 0;
+}
+
+.textbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-con {
+    display: flex;
+    border: 2px solid #eeeeee;
+    border-radius: 10px;
+    padding: 13px;
+}
+.card-det p{
+font-size: 12px;
+font-weight: 500;
+}
+
+.textbox p{
+    font-size: 12px;
+font-weight: 500;
+}
+
+.service-col{
+    display: flex;
+    justify-content: center;
+}
+
+.service-title{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e9e9e9;   
+}
+
+.service-title p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.sercive-control{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px
+}
+
+.service-content input{
+    line-height: 2rem;
+   
+   border: 2px solid #dedfe0;
+   border-radius:10px ;
+    width: 23rem;
+    margin-top: 7px;
+}
+
+.service-content p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.starplus{
+    border: 3px solid #c6c6c6;
+    padding: 7px 34px;
+    border-radius: 11px;
+}
+
+.service-content2 input {
+    width: 15rem;
+}
+
+.service-content2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.Addnew button {
+    width: 7rem;
+    border-radius: 7px;
+    font-size: 19px;
+    background: #311eec;
+    border: 0;
+    color: white;
+    padding: 5px;
+}
+.service-box{
+    border: 3px solid #c6c6c6;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.join p{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.loader{
+    text-align: center;
+    padding: 30px 0 22px 0;
+}
+
+.service {
+    background: #d9d9d9;
+}
+
+.excel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.excel p{
+    margin: 0;
+    padding: 0;
+    color: green;
+    font-weight: 400;
+   
+}
+
+
+.line-control{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px; 
+}
+
+
+
+ .chart-border{
+    border: 3px solid #c6c6c6;
+    padding: 31px;
+    border-radius: 17px;
+} 
+
+.chart{
+    padding: 28px 0 28px 0;
+}
